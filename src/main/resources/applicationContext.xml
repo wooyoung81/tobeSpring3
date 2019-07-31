@@ -5,9 +5,9 @@
     
     <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
         <property name="driverClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-        <property name="url" value="jdbc:sqlserver://169.56.102.233:1433;databaseName=ST_TEST" />
+        <property name="url" value="jdbc:sqlserver://" />
         <property name="username" value="sa" />
-        <property name="password" value="#tjqltmxkq0921" />
+        <property name="password" value="" />
     </bean>
 
     <bean class="user.dao.UserDao" id ="userDao">
